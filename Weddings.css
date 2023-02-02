@@ -1,28 +1,33 @@
-      .text {color: #231f20;}
-      #logo {margin-bottom: -150px; margin-top: -163px; width: 600px; height: 600px;}
-      body {text-align: center; background-color: #fdf0eb; font-family: 'IBM Plex Serif', serif;}
-      h2 {font-size: 40px; font-weight: lighter; background-color: #eacab0;}      
-      article {font-size: 30px;}
-      form {font-size: 30px;}
-      input {font-family: 'IBM Plex Serif', serif;; font-size: 30px; height: 30px;}
-      button {font-size: 30px; font-family: 'IBM Plex Serif', serif;}
-      .images {width: 800px; height: 500px; padding: 10px;}
-      .social-media {width: 60px; border-radius: 50px; margin: 20px;}
+.text {color: #231f20;}
+#logo {margin-bottom: -150px; margin-top: -163px; width: 600px; height: 600px;}
+body {text-align: center; background-color: #fdf0eb; font-family: 'IBM Plex Serif', serif;}
+h2 {font-size: 40px; font-weight: lighter; background-color: #eacab0;}      
+article {font-size: 30px;}
+form {font-size: 30px;}
+input {font-family: 'IBM Plex Serif', serif;; font-size: 30px; height: 30px;}
+button {font-size: 30px; font-family: 'IBM Plex Serif', serif;}
+.images {width: 800px; height: 500px; padding: 10px;}
+.social-media {width: 60px; border-radius: 50px; margin: 20px;}
 
-      #wef {font-size: 40px; margin-top: 3px;}
-      #ip-full-name {margin-left: 70px;}
-      #ip-contact-number {margin-left: 0px;}
-      #ip-email-address {margin-left: 23px;}
-      #ip-wedding-date {margin-left: 29px;}
-      #ip-venue-postcode {margin-left: 10px;}
+#wef {font-size: 40px; margin-top: 3px; text-align: center;}
+#budget {width: 535px;}
+#ip-full-name {margin-left: 88px; width: 400px; height: auto;}
+#ip-contact-number {margin-left: 0px; width: 400px; height: auto;}
+#ip-email-address {margin-left: 29px; width: 400px; height: auto;}
+#ip-wedding-date {margin-left: 35px; width: 404px; height: auto;}
+#ip-venue-postcode {margin-left: 10px; width: 400px;height: auto;}
+textarea {width: 650px; height: 200px; font-size: 30px; font-family: 'IBM Plex Serif', serif;}
+.container {width: 700px; height: 100%; background-color: #eacab0; margin-left: 270px; text-align: center;}
 
-      #five-ten {margin-left: 63px;}
-      #twofive-five {margin-left: 19px;}
-      #one-twofive {margin-left: 18px;}
+#five-ten {margin-left: 83px;}
+#twofive-five {margin-left: 28px;}
+#one-twofive {margin-left: 43px;}
+#ten {margin-left: 10px;}
+#submit {margin-bottom: 15px;}
 
-      #sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -200px; top: -10px; transition: 0.4s;}
-      #sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px; margin-left: -50px;}
-      #sidebar.active {left: 0;}
-      #sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
-      .toggle-btn span {width: 45px; height: 4px; background-color: #231f20; display: block; margin-top: 4px;}
-      .sidebar-hl {text-decoration: none; color: #fdf0eb;}
+#sidebar {position: absolute; width: 200px; height: 330px; background: #231f20; left: -200px; top: -10px; transition: 0.4s;}
+#sidebar ul li {list-style-type: none; font-size: 30px; padding: 15px; margin-left: -50px;}
+#sidebar.active {left: 0;}
+#sidebar .toggle-btn {position: absolute; top: 30px; left: 330px;}
+.toggle-btn span {width: 45px; height: 4px; background-color: #231f20; display: block; margin-top: 4px;}
+.sidebar-hl {text-decoration: none; color: #fdf0eb;}

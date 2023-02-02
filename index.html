@@ -43,20 +43,20 @@
           </article>
             <p>
               <img src="Zhomepicture4.jpg" class="images">
-                <form>
+                <form class="container"> 
                   <section>
                     <p id="wef"> Wedding Enquiry Form </p>
                   </section>  
                     <p> Full Name:
-                      <input placeholder="Enter your full name." id="ip-full-name"> 
+                      <input type="text" placeholder="Enter your full name." id="ip-full-name"> 
                     <p> Contact Number:  
-                      <input placeholder="Enter your contact number." id="ip-contact-number">
+                      <input type="tel" placeholder="Enter your contact number." id="ip-contact-number">
                     <p> Email Address:
-                      <input placeholder="Enter your email address." id="ip-email-address">
+                      <input type="email" placeholder="Enter your email address." id="ip-email-address">
                     <p> Wedding Date:
-                      <input placeholder="Enter your partners forename." id="ip-wedding-date">
+                      <input type="date" placeholder="Enter your wedding Date." id="ip-wedding-date">
                     <p> Venue Postcode:
-                      <input placeholder="Enter the postcode of the venue." id="ip-venue-postcode">
+                      <input type="text" placeholder="Enter the venue postcode." id="ip-venue-postcode">
                     <p>Budget:
                       <label> 
                         <input id="one-twofive" name="budget" type="radio"> £1,000-£2,500
@@ -71,9 +71,10 @@
                       <label> 
                         <input id="ten" name="budget" type="radio"> £10,000+
                       </label>
+                      <p>Enquiry Details
+                        <textarea id="ip-enquiry-details"> </textarea>
                         <p>
-                          <!-- make the submit button submit the data to mums email address -->
-                          <button type="submit"> Submit </button> 
+                          <button type="submit" id="submit"> Submit </button> 
                 </form>
       </main>
         <footer>
